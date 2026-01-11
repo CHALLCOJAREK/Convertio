@@ -1,0 +1,41 @@
+# ============================
+# Core API
+# ============================
+fastapi
+uvicorn
+
+# ============================
+# Environment
+# ============================
+python-dotenv
+
+# ============================
+# Security / Utils
+# ============================
+python-multipart
+pydantic
+bcrypt
+
+# ============================
+# OCR
+# ============================
+easyocr
+pytesseract
+Pillow
+opencv-python
+
+# ============================
+# Audio / Speech-to-Text
+# ============================
+openai-whisper
+ffmpeg-python
+
+# ============================
+# Data / Files
+# ============================
+numpy
+
+# ============================
+# HTTP / Requests (future-proof)
+# ============================
+requests

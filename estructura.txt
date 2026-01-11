@@ -1,0 +1,99 @@
+📦 PulseForge
+ ┣ 📜 .env
+ ┣ 📜 .env.example
+ ┣ 📜 .gitignore
+ ┣ 📜 gitpush.py
+ ┣ 📜 README.md
+ ┣ 📜 requirements.txt
+ ┣ 📜 run.ps1
+ ┣ 📜 run.sh
+📂 .git  (contenido limitado)
+ ┃ 📂 hooks
+ ┃ 📂 info
+ ┃ 📂 logs
+ ┃ 📂 objects
+ ┃ 📂 refs
+📂 app
+ ┣ 📜 main.py
+ ┃ 📂 api
+ ┃  ┣ 📜 routes_convert.py
+ ┃  ┣ 📜 routes_key.py
+ ┃  ┣ 📜 __init__.py
+ ┃ 📂 core
+ ┃  ┣ 📜 config.py
+ ┃  ┣ 📜 exceptions.py
+ ┃  ┣ 📜 logger.py
+ ┃  ┣ 📜 security.py
+ ┃ 📂 schemas
+ ┃  ┣ 📜 api_key.py
+ ┃  ┣ 📜 convert_request.py
+ ┃  ┣ 📜 convert_response.py
+ ┃  ┣ 📜 __init__.py
+ ┃ 📂 services
+ ┃  ┣ 📜 api_key_service.py
+ ┃  ┣ 📜 audio_service.py
+ ┃  ┣ 📜 file_service.py
+ ┃  ┣ 📜 ocr_service.py
+ ┃  ┣ 📜 __init__.py
+ ┃ 📂 storage
+ ┃  ┣ 📜 .gitkeep
+ ┃  ┣ 📜 api_keys.json
+ ┃ 📂 temp
+ ┃  ┣ 📜 .gitkeep
+ ┃ 📂 utils
+ ┃  ┣ 📜 base64_utils.py
+ ┃  ┣ 📜 hash_utils.py
+ ┃  ┣ 📜 media_utils.py
+ ┃  ┣ 📜 __init__.py
+📂 Convertio
+ ┣ 📜 .gitattributes
+ ┃ 📂 .git
+ ┃  ┣ 📜 COMMIT_EDITMSG
+ ┃  ┣ 📜 config
+ ┃  ┣ 📜 description
+ ┃  ┣ 📜 FETCH_HEAD
+ ┃  ┣ 📜 HEAD
+ ┃  ┣ 📜 index
+ ┃  ┃ 📂 hooks
+ ┃  ┃  ┣ 📜 applypatch-msg.sample
+ ┃  ┃  ┣ 📜 commit-msg.sample
+ ┃  ┃  ┣ 📜 fsmonitor-watchman.sample
+ ┃  ┃  ┣ 📜 post-update.sample
+ ┃  ┃  ┣ 📜 pre-applypatch.sample
+ ┃  ┃  ┣ 📜 pre-commit.sample
+ ┃  ┃  ┣ 📜 pre-merge-commit.sample
+ ┃  ┃  ┣ 📜 pre-push.sample
+ ┃  ┃  ┣ 📜 pre-rebase.sample
+ ┃  ┃  ┣ 📜 pre-receive.sample
+ ┃  ┃  ┣ 📜 prepare-commit-msg.sample
+ ┃  ┃  ┣ 📜 push-to-checkout.sample
+ ┃  ┃  ┣ 📜 sendemail-validate.sample
+ ┃  ┃  ┣ 📜 update.sample
+ ┃  ┃ 📂 info
+ ┃  ┃  ┣ 📜 exclude
+ ┃  ┃ 📂 logs
+ ┃  ┃  ┣ 📜 HEAD
+ ┃  ┃  ┃ 📂 refs
+ ┃  ┃  ┃  ┃ 📂 heads
+ ┃  ┃  ┃  ┃  ┣ 📜 main
+ ┃  ┃  ┃  ┃ 📂 remotes
+ ┃  ┃  ┃  ┃  ┃ 📂 origin
+ ┃  ┃  ┃  ┃  ┃  ┣ 📜 HEAD
+ ┃  ┃  ┃  ┃  ┃  ┣ 📜 main
+ ┃  ┃ 📂 objects
+ ┃  ┃  ┃ 📂 6f
+ ┃  ┃  ┃  ┣ 📜 9509c88bed7080d496fc5e1d87a9315e30549d
+ ┃  ┃  ┃ 📂 df
+ ┃  ┃  ┃  ┣ 📜 e0770424b2a19faf507a501ebfc23be8f54e7b
+ ┃  ┃  ┃ 📂 fc
+ ┃  ┃  ┃  ┣ 📜 836803ead1a4b076f4f540c9e1b8c085cbefa6
+ ┃  ┃  ┃ 📂 info
+ ┃  ┃  ┃ 📂 pack
+ ┃  ┃ 📂 refs
+ ┃  ┃  ┃ 📂 heads
+ ┃  ┃  ┃  ┣ 📜 main
+ ┃  ┃  ┃ 📂 remotes
+ ┃  ┃  ┃  ┃ 📂 origin
+ ┃  ┃  ┃  ┃  ┣ 📜 HEAD
+ ┃  ┃  ┃  ┃  ┣ 📜 main
+ ┃  ┃  ┃ 📂 tags
