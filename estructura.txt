@@ -2,6 +2,7 @@
  ┣ 📜 .env
  ┣ 📜 .env.example
  ┣ 📜 .gitignore
+ ┣ 📜 estructura.txt
  ┣ 📜 gitpush.py
  ┣ 📜 README.md
  ┣ 📜 requirements.txt
